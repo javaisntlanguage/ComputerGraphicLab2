@@ -88,7 +88,7 @@ namespace WindowsFormsApp3
         {
             Bresenham4Line(clr, point1.X, point1.Y, point2.X, point1.Y);//верхняя линия
             Bresenham4Line(clr, point1.X, point2.Y, point2.X, point2.Y);//нижняя линия
-            Bresenham4Line(clr, point1.X, point1.Y, point1.X, point2.Y);//левая линия
+            Bresenham4Line(clr, point1.X, point1.Y, point1.X, point2.Y);//левая линия      
             Bresenham4Line(clr, point2.X, point1.Y, point2.X, point2.Y);//правая линия
         }
 
